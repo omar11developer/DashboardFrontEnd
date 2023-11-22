@@ -1,0 +1,44 @@
+.menu-container{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: #212529;
+}
+
+.menu-btn-manu button{
+    background: none;
+    border: none;
+    color: white;
+    margin: 8px 0px 5px 5px;
+}
+.menu-btn-manu button:hover{
+    color: #1a2c5e;
+    
+}
+.menu-items ul li{
+    margin-bottom: 4px;
+}
+.menu-items ul li:hover{
+    background: #1a2c5e;
+}
+.menu-items ul li a{
+    margin-left: 15px;
+}
+.menu-items ul li a svg{
+    margin-right: 15px;
+}
+
+.linkActivado{
+    background: #233c83 !important;
+}
+.navbar{
+    visibility: hidden;
+}
+@media only screen and (max-width: 1000px) {
+    .menu-container{
+        display: none;
+    }
+    .navbar{
+        visibility: visible;
+    }
+  }
